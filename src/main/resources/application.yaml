@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: course-catalog-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/kotlin_board
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    show-sql: true
